@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
   s.swift_versions = ['5.1', '5.2']
   s.source       = { :git => "https://github.com/jayantnd/SNF.git", :branch => "master", :tag => "v"+s.version.to_s }
-  s.source_files  = "SNF", "SNF/**/*.{swift,h,m}"
+  s.source_files  = "SNF/**/*.{swift,h,m}"
   s.public_header_files = "SNF/**/*.h"
   s.requires_arc = true
 end
